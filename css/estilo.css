@@ -1,0 +1,56 @@
+body{
+	height: 640px;
+	margin:8px 10px;
+	font-size: 17px;
+	font-family:arial, tahoma;
+	background-color:#F0FFF0;
+	}
+
+legend{
+	font-size: 19px;
+	font-weight: normal;
+
+}
+fieldset{
+background:linear-gradient(#E6E6FA, #F0FFFF );
+color:black;
+border-color:black;
+border-width:2px;
+line-height: normal;
+margin:0 auto; 
+font-weight: bold;
+border-radius: 10px;
+}
+
+#cadastrar, #pesquisar, #cancelar{
+	margin-top: 25px;
+	margin-left:30px;
+	float: right;
+	height:45px;
+	
+	width:100px;
+	border-radius: 10px;
+	background-color:  #F0F8FF ;
+	font-size: 18px;	
+}
+
+#cadastrar:hover, #pesquisar:hover, #cancelar:hover{
+	color:black;
+	border-color: black;
+	background-color:#B0E0E6;
+}
+
+p{
+display: inline-block;
+}
+
+input{
+	background-color:#E6E6FA;
+	font-size:16px;
+	
+	border-radius: 8px;
+}
+input:hover{
+	border-color: white;
+	background-color: white;
+}
